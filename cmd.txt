@@ -1,0 +1,18 @@
+python -m virtualenv bin
+cd bin\Scripts
+activate
+cd ..
+cd ..
+pip install django
+
+django-admin
+django-admin startproject blog
+cd blog
+tree
+python manage.py runserver
+python manage.py startapp home
+
+
+zadanie 1.
+stwórz moduł 'about' i podepnij go pod url 'about/'
+
